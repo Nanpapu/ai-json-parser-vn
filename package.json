@@ -10,7 +10,7 @@
   },
   "keywords": [
     "json",
-    "parser", 
+    "parser",
     "ai",
     "deepseek",
     "openai",
@@ -18,17 +18,17 @@
     "markdown",
     "code-block"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Nanpapu <lamtran12152003@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "jsonrepair": "^3.13.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/ai-json-parser-vn.git"
+    "url": "https://github.com/Nanpapu/ai-json-parser-vn.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/ai-json-parser-vn/issues"
+    "url": "https://github.com/Nanpapu/ai-json-parser-vn/issues"
   },
-  "homepage": "https://github.com/yourusername/ai-json-parser-vn#readme"
+  "homepage": "https://github.com/Nanpapu/ai-json-parser-vn#readme"
 }
