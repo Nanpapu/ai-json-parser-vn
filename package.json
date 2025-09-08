@@ -1,6 +1,6 @@
 {
   "name": "ai-json-parser-vn",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Complete toolkit for AI responses: JSON parser + DeepSeek cost calculator",
   "main": "ai-json-parser.js",
   "type": "module",
