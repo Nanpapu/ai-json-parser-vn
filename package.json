@@ -1,11 +1,16 @@
 {
   "name": "ai-json-parser-vn",
-  "version": "1.0.1",
-  "description": "Simple and robust JSON parser for AI responses - handles code blocks, malformed JSON, and mixed content",
+  "version": "1.1.0",
+  "description": "Complete toolkit for AI responses: JSON parser + DeepSeek cost calculator",
   "main": "ai-json-parser.js",
   "type": "module",
+  "exports": {
+    ".": "./ai-json-parser.js",
+    "./cost": "./deepseek-cost-calculator.js"
+  },
   "scripts": {
     "test": "node test-ai-json-parser.js",
+    "test:cost": "node test-cost-calculator.js",
     "demo": "node demo.js"
   },
   "keywords": [
@@ -16,7 +21,11 @@
     "openai",
     "repair",
     "markdown",
-    "code-block"
+    "code-block",
+    "cost",
+    "calculator",
+    "pricing",
+    "usage"
   ],
   "author": "Nanpapu <lamtran12152003@gmail.com>",
   "license": "MIT",
