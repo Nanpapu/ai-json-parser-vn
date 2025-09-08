@@ -1,6 +1,6 @@
 {
   "name": "ai-json-parser-vn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple and robust JSON parser for AI responses - handles code blocks, malformed JSON, and mixed content",
   "main": "ai-json-parser.js",
   "type": "module",
