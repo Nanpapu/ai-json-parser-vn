@@ -21,6 +21,9 @@ const testCases = [
       "prompt_tokens": 1000,
       "completion_tokens": 500,
       "total_tokens": 1500,
+      "prompt_tokens_details": {
+        "cached_tokens": 600
+      },
       "prompt_cache_hit_tokens": 600,
       "prompt_cache_miss_tokens": 400
     }
@@ -31,6 +34,9 @@ const testCases = [
       "prompt_tokens": 10,
       "completion_tokens": 50,
       "total_tokens": 60,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
       "prompt_cache_hit_tokens": 0,
       "prompt_cache_miss_tokens": 10
     }
@@ -41,6 +47,9 @@ const testCases = [
       "prompt_tokens": 2000,
       "completion_tokens": 800,
       "total_tokens": 2800,
+      "prompt_tokens_details": {
+        "cached_tokens": 1800
+      },
       "prompt_cache_hit_tokens": 1800,
       "prompt_cache_miss_tokens": 200
     }
@@ -70,6 +79,9 @@ const perfUsage = {
   "prompt_tokens": 1000,
   "completion_tokens": 500,
   "total_tokens": 1500,
+  "prompt_tokens_details": {
+    "cached_tokens": 300
+  },
   "prompt_cache_hit_tokens": 300,
   "prompt_cache_miss_tokens": 700
 };
